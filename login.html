@@ -34,18 +34,14 @@
         .form-group {
             margin-bottom: 15px;
         }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-        }
         .form-group input,
         .form-group select {
-            width: calc(100% - 16px); /* 패딩을 고려하여 너비 조정 */
+            width: calc(100% - 16px);
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            margin: 0 auto; /* 좌우 중앙 정렬 */
-            display: block; /* 블록 요소로 설정 */
+            margin: 0 auto;
+            display: block;
         }
         .btn {
             width: 100%;
@@ -66,12 +62,10 @@
         <h2>로그인</h2>
         <form action="#" method="POST">
             <div class="form-group">
-                <label for="username">사용자 이름</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="username" placeholder="사용자 이름" required>
             </div>
             <div class="form-group">
-                <label for="password">비밀번호</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="password" placeholder="비밀번호" required>
             </div>
             <div class="form-group">
                 <label for="role">신분 선택</label>
